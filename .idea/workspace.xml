@@ -4,49 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9704d3ec-c253-4f60-8a4d-8c9b1b6f4faa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/inventoryservice/controller/InventoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/inventoryservice/dto/InventoryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/inventoryservice/model/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/inventoryservice/service/InventoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/test/java/com/chipthnky/inventoryservice/InventoryServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-services/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-services/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/OrderServicesApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/dto/OrderLineItemsRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/dto/OrderPlacedResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/dto/OrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/model/OrderLineItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/repository/OrderLineItemsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-services/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-services/src/test/java/com/chipthnky/orderservices/OrderServicesApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/chipthnky/productservice/ProductServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/chipthnky/productservice/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/chipthnky/productservice/dto/ProductRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/chipthnky/productservice/dto/ProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/chipthnky/productservice/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/chipthnky/productservice/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/chipthnky/productservice/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/test/java/com/chipthnky/productservice/ProductServiceApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="9704d3ec-c253-4f60-8a4d-8c9b1b6f4faa" name="Changes" comment="Initial Build Of Maven Project With Multiple Modules." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,8 +86,16 @@
       <option name="presentableId" value="Default" />
       <updated>1686258953267</updated>
       <workItem from="1686258954579" duration="1000" />
-      <workItem from="1686328597510" duration="1182000" />
+      <workItem from="1686328597510" duration="1803000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Build Of Maven Project With Multiple Modules.">
+      <created>1686330399577</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686330399577</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,5 +103,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial Build Of Mavern Project With Multiple Modules." />
+    <MESSAGE value="Initial Build Of Maven Project With Multiple Modules." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Build Of Maven Project With Multiple Modules." />
   </component>
 </project>
