@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9704d3ec-c253-4f60-8a4d-8c9b1b6f4faa" name="Changes" comment="Implementation of Webclient to establish communication between Product Service and Inventory Service.">
+    <list default="true" id="9704d3ec-c253-4f60-8a4d-8c9b1b6f4faa" name="Changes" comment="Implemented Springboot Cloud Using Netflix Eureka For Load Balancing">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/discovery-server/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
@@ -157,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686258953267</updated>
       <workItem from="1686258954579" duration="1000" />
-      <workItem from="1686328597510" duration="16211000" />
+      <workItem from="1686328597510" duration="16735000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Build Of Maven Project With Multiple Modules.">
       <created>1686330399577</created>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686336022325</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implemented Springboot Cloud Using Netflix Eureka For Load Balancing">
+      <created>1686346182354</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686346182354</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +209,7 @@
     <MESSAGE value="Initial Build Of Mavern Project With Multiple Modules." />
     <MESSAGE value="Initial Build Of Maven Project With Multiple Modules." />
     <MESSAGE value="Implementation of Webclient to establish communication between Product Service and Inventory Service." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementation of Webclient to establish communication between Product Service and Inventory Service." />
+    <MESSAGE value="Implemented Springboot Cloud Using Netflix Eureka For Load Balancing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Springboot Cloud Using Netflix Eureka For Load Balancing" />
   </component>
 </project>
