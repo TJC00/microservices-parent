@@ -4,15 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9704d3ec-c253-4f60-8a4d-8c9b1b6f4faa" name="Changes" comment="Initial Build Of Maven Project With Multiple Modules.">
-      <change afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/config/WebClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/dto/InventoryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/exception/ExceptionControllerAdviceHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/exception/ProductNotFoundExceptionHandler.java" afterDir="false" />
+    <list default="true" id="9704d3ec-c253-4f60-8a4d-8c9b1b6f4faa" name="Changes" comment="Implementation of Webclient to establish communication between Product Service and Inventory Service.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/InventoryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/test/java/com/chipthnky/discoveryserver/InventoryServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/chipthnky/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/inventoryservice/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/controller/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/inventoryservice/dto/InventoryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/dto/InventoryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/inventoryservice/model/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/model/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/inventoryservice/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/repository/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/inventoryservice/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/test/java/com/chipthnky/inventoryservice/InventoryServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/test/java/com/chipthnky/discoveryserver/InventoryServiceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-services/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/dto/OrderLineItemsRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/dto/OrderLineItemsRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/OrderServicesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/OrderServicesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/config/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/config/WebClientConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-services/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/order-services/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/chipthnky/productservice/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/chipthnky/productservice/ProductServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +68,13 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "20",
+    "last_opened_file_path": "/home/tjchidanika/Desktop/git repos/microservices-parent/discovery-server",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -62,6 +82,9 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/discovery-server" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.chipthnky.orderservices.dto" />
     </key>
@@ -79,9 +102,22 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.OrderServicesApplication">
+    <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="discovery-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chipthnky.discoveryserver.DiscoveryServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chipthnky.discoveryserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="inventory-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chipthnky.inventoryservice.InventoryServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chipthnky.discoveryserver.InventoryServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,6 +136,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.InventoryServiceApplication" />
+      <item itemvalue="Spring Boot.OrderServicesApplication" />
+      <item itemvalue="Spring Boot.ProductServiceApplication" />
+      <item itemvalue="Spring Boot.DiscoveryServerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DiscoveryServerApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -110,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686258953267</updated>
       <workItem from="1686258954579" duration="1000" />
-      <workItem from="1686328597510" duration="7055000" />
+      <workItem from="1686328597510" duration="16211000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Build Of Maven Project With Multiple Modules.">
       <created>1686330399577</created>
@@ -126,16 +173,35 @@
       <option name="project" value="LOCAL" />
       <updated>1686330478727</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implementation of Webclient to establish communication between Product Service and Inventory Service.">
+      <created>1686336022325</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686336022325</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Build Of Mavern Project With Multiple Modules." />
     <MESSAGE value="Initial Build Of Maven Project With Multiple Modules." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Build Of Maven Project With Multiple Modules." />
+    <MESSAGE value="Implementation of Webclient to establish communication between Product Service and Inventory Service." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of Webclient to establish communication between Product Service and Inventory Service." />
   </component>
 </project>

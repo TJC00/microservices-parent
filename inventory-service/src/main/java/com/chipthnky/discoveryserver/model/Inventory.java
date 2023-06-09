@@ -1,4 +1,4 @@
-package com.chipthnky.inventoryservice.model;
+package com.chipthnky.discoveryserver.model;
 
 import jakarta.persistence.*;
 import lombok.*;

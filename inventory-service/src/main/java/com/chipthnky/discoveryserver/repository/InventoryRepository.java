@@ -1,6 +1,6 @@
-package com.chipthnky.inventoryservice.repository;
+package com.chipthnky.discoveryserver.repository;
 
-import com.chipthnky.inventoryservice.model.Inventory;
+import com.chipthnky.discoveryserver.model.Inventory;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

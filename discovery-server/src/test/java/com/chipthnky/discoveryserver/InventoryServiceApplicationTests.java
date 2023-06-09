@@ -1,4 +1,4 @@
-package com.chipthnky.inventoryservice;
+package com.chipthnky.discoveryserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

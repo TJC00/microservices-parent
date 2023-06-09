@@ -1,7 +1,7 @@
-package com.chipthnky.inventoryservice.controller;
+package com.chipthnky.discoveryserver.controller;
 
-import com.chipthnky.inventoryservice.dto.InventoryResponse;
-import com.chipthnky.inventoryservice.service.InventoryService;
+import com.chipthnky.discoveryserver.dto.InventoryResponse;
+import com.chipthnky.discoveryserver.service.InventoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

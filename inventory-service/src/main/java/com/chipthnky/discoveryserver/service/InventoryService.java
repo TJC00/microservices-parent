@@ -1,7 +1,7 @@
-package com.chipthnky.inventoryservice.service;
+package com.chipthnky.discoveryserver.service;
 
-import com.chipthnky.inventoryservice.dto.InventoryResponse;
-import com.chipthnky.inventoryservice.repository.InventoryRepository;
+import com.chipthnky.discoveryserver.dto.InventoryResponse;
+import com.chipthnky.discoveryserver.repository.InventoryRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
