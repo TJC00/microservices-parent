@@ -1,4 +1,4 @@
-package com.chipthnky.discoveryserver;
+package com.chipthnky.apigateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9704d3ec-c253-4f60-8a4d-8c9b1b6f4faa" name="Changes" comment="Implemented Springboot Cloud Using Netflix Eureka For Load Balancing 1.1">
+    <list default="true" id="9704d3ec-c253-4f60-8a4d-8c9b1b6f4faa" name="Changes" comment="Implemented Springboot Cloud Using API Gateway For Load Balancing">
       <change afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/chipthnky/apigateway/DiscoveryServerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discovery-server/src/main/java/com/chipthnky/discoveryserver/DiscoveryServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/chipthnky/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/apigateway/InventoryServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/apigateway/controller/InventoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/dto/InventoryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/apigateway/dto/InventoryResponse.java" afterDir="false" />
@@ -167,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686258953267</updated>
       <workItem from="1686258954579" duration="1000" />
-      <workItem from="1686328597510" duration="19544000" />
+      <workItem from="1686328597510" duration="19877000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Build Of Maven Project With Multiple Modules.">
       <created>1686330399577</created>
@@ -204,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686346501348</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implemented Springboot Cloud Using API Gateway For Load Balancing">
+      <created>1686349325181</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686349325181</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +235,7 @@
     <MESSAGE value="Implementation of Webclient to establish communication between Product Service and Inventory Service." />
     <MESSAGE value="Implemented Springboot Cloud Using Netflix Eureka For Load Balancing" />
     <MESSAGE value="Implemented Springboot Cloud Using Netflix Eureka For Load Balancing 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Springboot Cloud Using Netflix Eureka For Load Balancing 1.1" />
+    <MESSAGE value="Implemented Springboot Cloud Using API Gateway For Load Balancing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Springboot Cloud Using API Gateway For Load Balancing" />
   </component>
 </project>

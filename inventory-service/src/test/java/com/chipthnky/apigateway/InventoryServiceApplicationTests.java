@@ -1,4 +1,4 @@
-package com.chipthnky.discoveryserver;
+package com.chipthnky.apigateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

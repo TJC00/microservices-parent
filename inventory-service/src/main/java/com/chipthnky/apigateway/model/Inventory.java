@@ -1,4 +1,4 @@
-package com.chipthnky.discoveryserver.model;
+package com.chipthnky.apigateway.model;
 
 import jakarta.persistence.*;
 import lombok.*;

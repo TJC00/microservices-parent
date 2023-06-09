@@ -1,7 +1,7 @@
-package com.chipthnky.discoveryserver;
+package com.chipthnky.apigateway;
 
-import com.chipthnky.discoveryserver.model.Inventory;
-import com.chipthnky.discoveryserver.repository.InventoryRepository;
+import com.chipthnky.apigateway.model.Inventory;
+import com.chipthnky.apigateway.repository.InventoryRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

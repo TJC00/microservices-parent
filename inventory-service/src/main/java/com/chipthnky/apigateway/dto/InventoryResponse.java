@@ -1,4 +1,4 @@
-package com.chipthnky.discoveryserver.dto;
+package com.chipthnky.apigateway.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

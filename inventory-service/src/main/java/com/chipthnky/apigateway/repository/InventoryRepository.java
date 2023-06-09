@@ -1,6 +1,6 @@
-package com.chipthnky.discoveryserver.repository;
+package com.chipthnky.apigateway.repository;
 
-import com.chipthnky.discoveryserver.model.Inventory;
+import com.chipthnky.apigateway.model.Inventory;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
