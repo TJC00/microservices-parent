@@ -4,33 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9704d3ec-c253-4f60-8a4d-8c9b1b6f4faa" name="Changes" comment="Implemented Springboot Cloud Using Netflix Eureka For Load Balancing">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/InventoryServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/test/java/com/chipthnky/discoveryserver/InventoryServiceApplicationTests.java" afterDir="false" />
+    <list default="true" id="9704d3ec-c253-4f60-8a4d-8c9b1b6f4faa" name="Changes" comment="Implemented Springboot Cloud Using Netflix Eureka For Load Balancing 1.1">
+      <change afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/chipthnky/apigateway/DiscoveryServerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/chipthnky/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/inventoryservice/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/controller/InventoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/inventoryservice/dto/InventoryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/dto/InventoryResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/inventoryservice/model/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/model/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/inventoryservice/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/repository/InventoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/inventoryservice/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/service/InventoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/test/java/com/chipthnky/inventoryservice/InventoryServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/test/java/com/chipthnky/discoveryserver/InventoryServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-services/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/OrderServicesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/OrderServicesApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/config/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/config/WebClientConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-services/src/main/java/com/chipthnky/orderservices/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/java/com/chipthnky/discoveryserver/DiscoveryServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/chipthnky/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/apigateway/InventoryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/apigateway/controller/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/dto/InventoryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/apigateway/dto/InventoryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/model/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/apigateway/model/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/apigateway/repository/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/discoveryserver/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/chipthnky/apigateway/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/test/java/com/chipthnky/discoveryserver/InventoryServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/test/java/com/chipthnky/apigateway/InventoryServiceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-services/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/order-services/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/chipthnky/productservice/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/chipthnky/productservice/ProductServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +36,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2QwJwUqqNxWCtuhSZ8ZtSA1c6RH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -68,13 +61,13 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "/home/tjchidanika/Desktop/git repos/microservices-parent/discovery-server",
+    "last_opened_file_path": "/home/tjchidanika/Desktop/git repos/microservices-parent/api-gateway",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -83,6 +76,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api-gateway" />
+      <recent name="$PROJECT_DIR$/api-gateway/src" />
       <recent name="$PROJECT_DIR$/discovery-server" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -101,13 +96,26 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderServicesApplication">
-    <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="discovery-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chipthnky.discoveryserver.DiscoveryServerApplication" />
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chipthnky.apigateway.ApiGatewayApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chipthnky.discoveryserver.*" />
+          <option name="PATTERN" value="com.chipthnky.apigateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="discovery-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chipthnky.apigateway.DiscoveryServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chipthnky.apigateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,7 +125,7 @@
     </configuration>
     <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="inventory-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chipthnky.discoveryserver.InventoryServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chipthnky.apigateway.InventoryServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,12 +146,14 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.InventoryServiceApplication" />
-      <item itemvalue="Spring Boot.OrderServicesApplication" />
       <item itemvalue="Spring Boot.ProductServiceApplication" />
+      <item itemvalue="Spring Boot.OrderServicesApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.DiscoveryServerApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ApiGatewayApplication" />
         <item itemvalue="Spring Boot.DiscoveryServerApplication" />
       </list>
     </recent_temporary>
@@ -157,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686258953267</updated>
       <workItem from="1686258954579" duration="1000" />
-      <workItem from="1686328597510" duration="16735000" />
+      <workItem from="1686328597510" duration="19544000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Build Of Maven Project With Multiple Modules.">
       <created>1686330399577</created>
@@ -187,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686346182354</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implemented Springboot Cloud Using Netflix Eureka For Load Balancing 1.1">
+      <created>1686346501348</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686346501348</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +227,7 @@
     <MESSAGE value="Initial Build Of Maven Project With Multiple Modules." />
     <MESSAGE value="Implementation of Webclient to establish communication between Product Service and Inventory Service." />
     <MESSAGE value="Implemented Springboot Cloud Using Netflix Eureka For Load Balancing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Springboot Cloud Using Netflix Eureka For Load Balancing" />
+    <MESSAGE value="Implemented Springboot Cloud Using Netflix Eureka For Load Balancing 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Springboot Cloud Using Netflix Eureka For Load Balancing 1.1" />
   </component>
 </project>
